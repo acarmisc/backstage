@@ -1,5 +1,11 @@
 # @backstage/plugin-notifications-backend
 
+## 0.6.8-next.1
+
+### Patch Changes
+
+- 3222945: Fixed notification recipient resolution to safely handle cyclic group relationships during group traversal, preventing endless recursion.
+
 ## 0.6.8-next.0
 
 ### Patch Changes

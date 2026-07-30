@@ -1,5 +1,13 @@
 # @backstage/cli-module-new
 
+## 0.1.6-next.0
+
+### Patch Changes
+
+- 90ef477: Added a new `permission-policy-module` template for scaffolding custom permission policies via `backstage-cli new`. The template generates a backend module that wires a `PermissionPolicy` implementation into the permission backend using the `policyExtensionPoint`, along with a test example.
+- 88b2bbf: Added a `search-collator-module` template for scaffolding new search collator modules via `backstage-cli new`.
+- 2c7cc55: Added a new `catalog-processor-module` template for scaffolding catalog processor modules via `backstage-cli new`.
+
 ## 0.1.5
 
 ### Patch Changes

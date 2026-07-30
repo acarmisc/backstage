@@ -1,5 +1,11 @@
 # @backstage/plugin-catalog-backend
 
+## 3.8.2-next.2
+
+### Patch Changes
+
+- aa318d0: Migrated internal query filter handling from `EntityFilter` to `FilterPredicate`, simplifying the filter parsing and query application pipeline.
+
 ## 3.8.2-next.1
 
 ### Patch Changes
